@@ -105,5 +105,5 @@ if [ $should_install_java == "0" ]; then
   echo " !     No nodejs buildpack was installed. Aborting."
   exit 1
 else
-  handle_buildpack $1 $2 $JAVA_BUILDPACK
+  handle_buildpack $1 $2 -p https://github.com/cloudfoundry/java-buildpack.git $JAVA_BUILDPACK
 fi
