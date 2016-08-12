@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo "JVM with Takipi"
+echo "Node with JVM"
 exit 0
