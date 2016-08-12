@@ -89,8 +89,11 @@ function handle_buildpack() {
 
 should_install_java="0"
 
-for BUILDPACK in $NODEJS_BUILDPACK; do
+for NODEJS_BUILDPACK in $NODEJS_BUILDPACK; do
   set +e
+  echo $1
+  echo $2
+  echo $BUILDPACK
   handle_buildpack $1 $2 $BUILDPACK
   exit_code=$?
   set -e
