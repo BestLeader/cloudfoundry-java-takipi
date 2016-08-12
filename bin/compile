@@ -52,6 +52,7 @@ function handle_buildpack() {
 
     set +e
     framework=$($dir/bin/detect $1)
+	echo $framework
     exit_code=$?
     set -e
     
