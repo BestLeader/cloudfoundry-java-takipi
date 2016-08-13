@@ -3,7 +3,7 @@
 set -e
 
 NODEJS_BUILDPACK="https://github.com/cloudfoundry/nodejs-buildpack.git"
-JAVA_BUILDPACK="https://github.com/BestLeader/java-buildpack.git"
+JAVA_BUILDPACK="https://github.com/cloudfoundry/java-buildpack.git"
 
 function indent() {
   c='s/^/       /'
